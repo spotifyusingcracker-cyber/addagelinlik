@@ -110,26 +110,6 @@ const products: Product[] = [
       { src: atelier, alt: "Gelinliğin hazırlandığı atölye" },
     ],
   },
-  {
-    type: "Nişanlık",
-    image: collection2,
-    detail: "Şampanya tonu, sade kesim, midi boy",
-    gallery: [
-      { src: collection2, alt: "Nişanlık" },
-      { src: galeriSatenSiluet1, alt: "Nişanlık kumaş detayı" },
-      { src: galeriSatenSiluet2, alt: "Nişanlık tam boy görünüm" },
-    ],
-  },
-  {
-    type: "Kına Kaftanı",
-    image: collection1,
-    detail: "Kadife üzerine altın işleme",
-    gallery: [
-      { src: collection1, alt: "Kına kaftanı" },
-      { src: galeriAltinDantel1, alt: "Kaftan altın işleme detayı" },
-      { src: galeriDuvakTac1, alt: "Kaftanı tamamlayan el işi taç" },
-    ],
-  },
 
   {
     type: "Abiye",
