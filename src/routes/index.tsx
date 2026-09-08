@@ -8,7 +8,7 @@ import collection3 from "@/assets/collection-3.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Adda Gelinlik — Nişantaşı Gelinlik Atölyesi" },
+      { title: "Adda Gelinlik — Gelinlik Atölyesi" },
       {
         name: "description",
         content:
