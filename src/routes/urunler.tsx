@@ -30,6 +30,25 @@ import abiyeDress13 from "@/elbiseler/abiye/dress94.jpg";
 import abiyeDress14 from "@/elbiseler/abiye/dress95.jpg";
 import abiyeDress15 from "@/elbiseler/abiye/dress96.jpg";
 
+import abiyeDress16 from "@/elbiseler/abiye/dress10.jpg";
+import abiyeDress17 from "@/elbiseler/abiye/dress11.png";
+import abiyeDress18 from "@/elbiseler/abiye/dress12.png";
+import abiyeDress19 from "@/elbiseler/abiye/dress13.png";
+import abiyeDress20 from "@/elbiseler/abiye/dress14.png";
+import abiyeDress21 from "@/elbiseler/abiye/dress15.jpg";
+import abiyeDress22 from "@/elbiseler/abiye/dress17.jpg";
+import abiyeDress23 from "@/elbiseler/abiye/dress18.jpg";
+import abiyeDress24 from "@/elbiseler/abiye/dress19.jpg";
+import abiyeDress25 from "@/elbiseler/abiye/dress20.jpg";
+import abiyeDress26 from "@/elbiseler/abiye/dress21.jpg";
+import abiyeDress27 from "@/elbiseler/abiye/dress22.jpg";
+import abiyeDress28 from "@/elbiseler/abiye/dress23.png";
+import abiyeDress29 from "@/elbiseler/abiye/dress24.png";
+import abiyeDress30 from "@/elbiseler/abiye/dress25.png";
+import abiyeDress31 from "@/elbiseler/abiye/dress26.png";
+import abiyeDress32 from "@/elbiseler/abiye/dress27.png";
+import abiyeDress33 from "@/elbiseler/abiye/dress28.jpg";
+
 import afterDress1 from "@/elbiseler/after/dress1.jpg";
 import afterDress2 from "@/elbiseler/after/dress2.png";
 
@@ -37,11 +56,30 @@ import gelinlikDress1 from "@/elbiseler/gelinlik/dress1.jpg";
 import gelinlikDress2 from "@/elbiseler/gelinlik/dress2.png";
 import gelinlikDress3 from "@/elbiseler/gelinlik/dress3.jpg";
 
+import gelinlikDress4 from "@/elbiseler/gelinlik/dress4.jpg";
+import gelinlikDress5 from "@/elbiseler/gelinlik/dress5.jpg";
+import gelinlikDress6 from "@/elbiseler/gelinlik/dress6.jpg";
+import gelinlikDress7 from "@/elbiseler/gelinlik/dress7.png";
+import gelinlikDress8 from "@/elbiseler/gelinlik/dress8.png";
+import gelinlikDress9 from "@/elbiseler/gelinlik/dress9.png";
+import gelinlikDress10 from "@/elbiseler/gelinlik/dress10.jpg";
+
 import kinalikDress1 from "@/elbiseler/kinalik/red.jpg";
+
+import kinalikDress2 from "@/elbiseler/kinalik/dress1.jpg";
+import kinalikDress3 from "@/elbiseler/kinalik/dress2.png";
+import kinalikDress4 from "@/elbiseler/kinalik/dress3.png";
 
 import nisanlikDress2 from "@/elbiseler/nisanlik/dress2.png";
 import nisanlikDress3 from "@/elbiseler/nisanlik/dress3.png";
 import nisanlikDress4 from "@/elbiseler/nisanlik/dress4.jpg";
+
+import nisanlikDress5 from "@/elbiseler/nisanlik/dress5.jpg";
+import nisanlikDress6 from "@/elbiseler/nisanlik/dress6.png";
+import nisanlikDress7 from "@/elbiseler/nisanlik/dress7.jpg";
+import nisanlikDress8 from "@/elbiseler/nisanlik/dress8.jpg";
+import nisanlikDress9 from "@/elbiseler/nisanlik/dress9.jpg";
+import nisanlikDress10 from "@/elbiseler/nisanlik/dress10.jpg";
 
 export const Route = createFileRoute("/urunler")({
   head: () => ({
@@ -116,21 +154,39 @@ const products: Product[] = [
     image: abiyeDress1,
     detail: "Özel davetler için zarif ve sofistike tasarımlar",
     gallery: [
-      { src: abiyeDress1, alt: "Abiye elbise" },
-      { src: abiyeDress2, alt: "Abiye elbise görünümü" },
-      { src: abiyeDress3, alt: "Abiye elbise detayları" },
-      { src: abiyeDress4, alt: "Abiye elbise" },
-      { src: abiyeDress5, alt: "Abiye elbise görünümü" },
-      { src: abiyeDress6, alt: "Abiye elbise" },
-      { src: abiyeDress7, alt: "Abiye elbise" },
-      { src: abiyeDress8, alt: "Abiye elbise" },
-      { src: abiyeDress9, alt: "Abiye elbise" },
-      { src: abiyeDress10, alt: "Abiye elbise" },
-      { src: abiyeDress11, alt: "Abiye elbise" },
-      { src: abiyeDress12, alt: "Abiye elbise" },
-      { src: abiyeDress13, alt: "Abiye elbise" },
-      { src: abiyeDress14, alt: "Abiye elbise" },
-      { src: abiyeDress15, alt: "Abiye elbise" },
+      { src: abiyeDress1, alt: "" },
+      { src: abiyeDress2, alt: "" },
+      { src: abiyeDress3, alt: "" },
+      { src: abiyeDress4, alt: "" },
+      { src: abiyeDress5, alt: "" },
+      { src: abiyeDress6, alt: "" },
+      { src: abiyeDress7, alt: "" },
+      { src: abiyeDress8, alt: "" },
+      { src: abiyeDress9, alt: "" },
+      { src: abiyeDress10, alt: "" },
+      { src: abiyeDress11, alt: "" },
+      { src: abiyeDress12, alt: "" },
+      { src: abiyeDress13, alt: "" },
+      { src: abiyeDress14, alt: "" },
+      { src: abiyeDress15, alt: "" },
+      { src: abiyeDress16, alt: "" },
+      { src: abiyeDress17, alt: "" },
+      { src: abiyeDress18, alt: "" },
+      { src: abiyeDress19, alt: "" },
+      { src: abiyeDress20, alt: "" },
+      { src: abiyeDress21, alt: "" },
+      { src: abiyeDress22, alt: "" },
+      { src: abiyeDress23, alt: "" },
+      { src: abiyeDress24, alt: "" },
+      { src: abiyeDress25, alt: "" },
+      { src: abiyeDress26, alt: "" },
+      { src: abiyeDress27, alt: "" },
+      { src: abiyeDress28, alt: "" },
+      { src: abiyeDress29, alt: "" },
+      { src: abiyeDress30, alt: "" },
+      { src: abiyeDress31, alt: "" },
+      { src: abiyeDress32, alt: "" },
+      { src: abiyeDress33, alt: "" },
     ],
   },
 
@@ -139,8 +195,8 @@ const products: Product[] = [
     image: afterDress1,
     detail: "Düğün sonrası için zarif ve modern tasarımlar",
     gallery: [
-      { src: afterDress1, alt: "After elbisesi" },
-      { src: afterDress2, alt: "After elbisesi" },
+      { src: afterDress1, alt: "" },
+      { src: afterDress2, alt: "" },
     ],
   },
 
@@ -149,9 +205,16 @@ const products: Product[] = [
     image: gelinlikDress1,
     detail: "Zamansız tasarımlar, zarif detaylar ve özel işçilik",
     gallery: [
-      { src: gelinlikDress1, alt: "Gelinlik" },
-      { src: gelinlikDress2, alt: "Gelinlik görünümü" },
-      { src: gelinlikDress3, alt: "Gelinlik detayları" },
+      { src: gelinlikDress1, alt: "" },
+      { src: gelinlikDress2, alt: "" },
+      { src: gelinlikDress3, alt: "" },
+      { src: gelinlikDress4, alt: "" },
+      { src: gelinlikDress5, alt: "" },
+      { src: gelinlikDress6, alt: "" },
+      { src: gelinlikDress7, alt: "" },
+      { src: gelinlikDress8, alt: "" },
+      { src: gelinlikDress9, alt: "" },
+      { src: gelinlikDress10, alt: "" },
     ],
   },
 
@@ -160,7 +223,10 @@ const products: Product[] = [
     image: kinalikDress1,
     detail: "Kına gecesine özel geleneksel ve gösterişli tasarım",
     gallery: [
-      { src: kinalikDress1, alt: "Kınalık elbise" },
+      { src: kinalikDress1, alt: "" },
+      { src: kinalikDress2, alt: "" },
+      { src: kinalikDress3, alt: "" },
+      { src: kinalikDress4, alt: "" },
     ],
   },
 
@@ -169,9 +235,15 @@ const products: Product[] = [
     image: nisanlikDress2,
     detail: "Nişan gününüz için zarif ve sofistike tasarımlar",
     gallery: [
-      { src: nisanlikDress2, alt: "Nişanlık elbise" },
-      { src: nisanlikDress3, alt: "Nişanlık elbise görünümü" },
-      { src: nisanlikDress4, alt: "Nişanlık elbise detayları" },
+      { src: nisanlikDress2, alt: "" },
+      { src: nisanlikDress3, alt: "" },
+      { src: nisanlikDress4, alt: "" },
+      { src: nisanlikDress5, alt: "" },
+      { src: nisanlikDress6, alt: "" },
+      { src: nisanlikDress7, alt: "" },
+      { src: nisanlikDress8, alt: "" },
+      { src: nisanlikDress9, alt: "" },
+      { src: nisanlikDress10, alt: "" },
     ],
   },
 ];
